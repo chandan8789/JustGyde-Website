@@ -5,6 +5,8 @@ import SecondCards from "../../SecondCards";
 import Entertainment from "../../assets/enterainment.jpg";
 import business from "../../assets/businnes.jpg";
 import Nurse from "../../assets/nurses.jpg";
+import Reviews from "../Reviews/Reviews";
+import Ecommerce from "../../assets/ecommerce.jpg";
 
 const OurServices = () => {
   return (
@@ -44,6 +46,26 @@ const OurServices = () => {
           des="Just Gyde brings excitement to your life with a wide array of entertainment services. We have partnerships with multiple and other entities to offer exclusive deals and rewards. Our platform allows users to earn and redeem coins for various entertainment activities. Enjoy movies, events, and more with our seamless booking and reward system. We aim to make entertainment accessible and affordable for everyone. Our services include discounts on movie tickets, event passes, and more. Just Gyde enhances your leisure time by providing curated entertainment experiences. Dive into a world of fun and relaxation with Just Gyde, where entertainment meets convenience."
         />
       </div>
+
+      {/* <div className="container">
+        <div className="row">
+          <div className="col-lg-6 d-flex align-items-center">
+            <img src={Ecommerce} alt="" className="img-fluid" />
+          </div>
+          <div className="col-lg-6">
+            <p>
+              Just Gyde is a versatile platform that caters to a wide range of
+              services, including a robust E-commerce service dedicated to the
+              sale of Fast-Moving Consumer Goods (FMCG). Our E-commerce service
+              is designed to provide customers with a seamless and convenient
+              shopping experience, offering a diverse array of high-quality FMCG
+              products at competitive prices.
+            </p>
+          </div>
+        </div>
+      </div> */}
+
+      <Reviews />
     </div>
   );
 };

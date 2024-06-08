@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../../assets/Aboutus.png";
+import OurServices from "../OurServices/OurServices";
 
 const AboutUs = () => {
   return (
@@ -32,6 +33,9 @@ const AboutUs = () => {
           ac ut consequat semper.
         </p>
       </div>
+
+      
+      <OurServices/>
     </div>
   );
 };

@@ -1,21 +1,24 @@
 import React from "react";
-import homebg from "../../assets/blue.png";
+import homebg from "../../assets/pupple.png";
 import phone from "../../assets/Phone.png";
 import "./Home.css";
+import AboutUs from "../About/AboutUs";
 const Home = () => {
   return (
     <>
       <div>
         <div>
-          <img style={{ width: "100%", height: "550px" }} src={homebg} alt="" />
+          <img style={{ width: "100%", height: "85vh" }} src={homebg} alt="" />
           <div class="centered">
             <h1 className="m-0 fw-bold letter-spacing">Reliable Solutions,</h1>
             <h1 className="m-0 fw-bold letter-spacing">Exceptional Service</h1>
             <p className="w-75 mt-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Molestias quaerat id sapiente pariatur quasi consequuntur ullam
-              quia expedita sequi ea alias, rem ducimus. Inventore libero
-              laborum porro eaque, obcaecati ducimus?
+              At our company, we pride ourselves on delivering reliable
+              solutions coupled with exceptional service. Our commitment to
+              excellence ensures that every project we undertake meets the
+              highest standards of quality and satisfaction. Trust us to provide
+              innovative and dependable solutions tailored to your needs, backed
+              by a team dedicated to outstanding customer service.
             </p>
           </div>
         </div>
@@ -30,6 +33,7 @@ const Home = () => {
             className="phoneImagesmedia"
           />
         </div>
+        <AboutUs />
       </div>
     </>
   );

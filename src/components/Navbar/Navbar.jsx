@@ -4,74 +4,148 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav
-      className="navbar navbar-expand-lg"
-      style={{
-        background:
-          "linear-gradient(244.3deg, #000066 33.75%, #0000CC 109.08%)",
-      }}
-    >
-      <div className="container-fluid">
-        <Link className="navbar-brand mx-5" to="/">
-          <img
-            style={{
-              height: "60px",
-              width: "170px",
-              objectFit: "contain",
-            }}
-            src={JustGydeLogo}
-            alt="JustGyde Logo"
+    <>
+      <nav
+        className="navbar navbar-expand-lg navbar-light"
+        style={{
+          background: "transparent",
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          padding: "20px",
+        }}
+      >
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
+            <img
+              src={JustGydeLogo}
+              alt=""
+              style={{ width: "200px", objectFit: "contain" }}
+            />
+          </a>
+          <button
+            className="btn navbar-toggler border-light"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            <i className="bi bi-justify text-white"></i>
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul className="navbar-nav">
+              <li className="nav-item me-3">
+                <Link
+                  className="nav-link active text-white"
+                  aria-current="page"
+                  to="/"
+                >
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link text-white" to="/our-mission">
+                  Our Mission
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link text-white" to="/vision">
+                  Our Vision
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link text-white" to="/about">
+                  About Us
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link text-white" to="/services">
+                  Services
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link text-white" to="/reviews">
+                  Reviews
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link text-white" to="/contact">
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      {/* offcanvas */}
+      <div
+        className="offcanvas offcanvas-start"
+        tabIndex={-1}
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div className="offcanvas-header">
+          <h1 className="offcanvas-title" id="offcanvasExampleLabel">
+            JUSTGYDE
+          </h1>
+          <button
+            type="button"
+            className="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
           />
-        </Link>
-        <button
-          className="navbar-toggler border border-primary"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div
-          className="collapse navbar-collapse justify-content-end"
-          id="navbarNavDropdown"
-        >
-          <ul className="navbar-nav mx-5">
-            <li className="nav-item me-5">
-              <Link
-                className="nav-link active text-white"
-                aria-current="page"
-                to="/"
-              >
-                Home
-              </Link>
-            </li>
-            <li className="nav-item me-5">
-              <Link className="nav-link text-white" to="/about">
-                About Us
-              </Link>
-            </li>
-            <li className="nav-item me-5">
-              <Link className="nav-link text-white" to="/services">
-                Services
-              </Link>
-            </li>
-            <li className="nav-item me-5">
-              <Link className="nav-link text-white" to="/reviews">
-                Reviews
-              </Link>
-            </li>
-            <li className="nav-item me-5">
-              <Link className="nav-link text-white" to="/contact">
-                Contact Us
-              </Link>
-            </li>
-          </ul>
+        </div>
+        <div className="offcanvas-body">
+         
+          <ul className="navbar-nav">
+              <li className="nav-item me-3">
+                <Link
+                  className="nav-link active text-white"
+                  aria-current="page"
+                  to="/"
+                >
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link" to="/mission">
+                  Our Mission
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link" to="/vision">
+                  Our Vision
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link" to="/about">
+                  About
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link" to="/services">
+                  Services
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link" to="/reviews">
+                  Reviews
+                </Link>
+              </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link" to="/contact">
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
         </div>
       </div>
-    </nav>
+    </>
   );
 }
 
