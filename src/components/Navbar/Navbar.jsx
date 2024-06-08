@@ -12,7 +12,7 @@ function Navbar() {
       }}
     >
       <div className="container-fluid">
-        <Link className="navbar-brand mx-5" href="#">
+        <Link className="navbar-brand mx-5" to="/">
           <img
             style={{
               height: "60px",
@@ -43,28 +43,28 @@ function Navbar() {
               <Link
                 className="nav-link active text-white"
                 aria-current="page"
-                href="#"
+                to="/"
               >
                 Home
               </Link>
             </li>
             <li className="nav-item me-5">
-              <Link className="nav-link text-white" href="#">
+              <Link className="nav-link text-white" to="/about">
                 About Us
               </Link>
             </li>
             <li className="nav-item me-5">
-              <Link className="nav-link text-white" href="#">
+              <Link className="nav-link text-white" to="/services">
                 Services
               </Link>
             </li>
             <li className="nav-item me-5">
-              <Link className="nav-link text-white" href="#">
+              <Link className="nav-link text-white" to="/reviews">
                 Reviews
               </Link>
             </li>
             <li className="nav-item me-5">
-              <Link className="nav-link text-white" href="#">
+              <Link className="nav-link text-white" to="/contact">
                 Contact Us
               </Link>
             </li>
