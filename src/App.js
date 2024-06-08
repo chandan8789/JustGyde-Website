@@ -7,10 +7,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-
-      <Routes>
-        <Route path="/" element={Home} />
-      </Routes>
+      <Home />
     </>
   );
 };
