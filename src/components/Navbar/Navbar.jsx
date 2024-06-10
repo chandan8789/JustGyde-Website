@@ -6,14 +6,14 @@ function Navbar() {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg navbar-light"
+        className="navbar navbar-expand-lg navbar-light fixed-top"
         style={{
-          background: "transparent",
-          position: "absolute",
+          background: "rgba(78, 66, 80, 1)",
+          // position: "absolute",
           top: 0,
           left: 0,
           right: 0,
-          padding: "20px",
+          padding: "10px",
         }}
       >
         <div className="container-fluid">
@@ -21,7 +21,7 @@ function Navbar() {
             <img
               src={JustGydeLogo}
               alt=""
-              style={{ width: "200px", objectFit: "contain" }}
+              style={{ width: "150px", objectFit: "contain" }}
             />
           </a>
           <button
@@ -53,7 +53,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item me-3">
-                <Link className="nav-link text-white" to="/vision">
+                <Link className="nav-link text-white" to="/our-vission">
                   Our Vision
                 </Link>
               </li>
@@ -72,11 +72,7 @@ function Navbar() {
                   Reviews
                 </Link>
               </li>
-              <li className="nav-item me-3">
-                <Link className="nav-link text-white" to="/contact">
-                  Contact Us
-                </Link>
-              </li>
+             
             </ul>
           </div>
         </div>
@@ -101,48 +97,37 @@ function Navbar() {
           />
         </div>
         <div className="offcanvas-body">
-         
           <ul className="navbar-nav">
-              <li className="nav-item me-3">
-                <Link
-                  className="nav-link active text-white"
-                  aria-current="page"
-                  to="/"
-                >
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item me-3">
-                <Link className="nav-link" to="/mission">
-                  Our Mission
-                </Link>
-              </li>
-              <li className="nav-item me-3">
-                <Link className="nav-link" to="/vision">
-                  Our Vision
-                </Link>
-              </li>
-              <li className="nav-item me-3">
-                <Link className="nav-link" to="/about">
-                  About
-                </Link>
-              </li>
-              <li className="nav-item me-3">
-                <Link className="nav-link" to="/services">
-                  Services
-                </Link>
-              </li>
-              <li className="nav-item me-3">
-                <Link className="nav-link" to="/reviews">
-                  Reviews
-                </Link>
-              </li>
-              <li className="nav-item me-3">
-                <Link className="nav-link" to="/contact">
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
+            <li className="nav-item me-3">
+              <Link className="nav-link" aria-current="page" to="/">
+                Home
+              </Link>
+            </li>
+            <li className="nav-item me-3">
+              <Link className="nav-link">Our Mission</Link>
+            </li>
+            <li className="nav-item me-3">
+              <Link className="nav-link" to="/vision">
+                Our Vision
+              </Link>
+            </li>
+            <li className="nav-item me-3">
+              <Link className="nav-link" to="/about">
+                About
+              </Link>
+            </li>
+            <li className="nav-item me-3">
+              <Link className="nav-link" to="/services">
+                Services
+              </Link>
+            </li>
+            <li className="nav-item me-3">
+              <Link className="nav-link" to="/reviews">
+                Reviews
+              </Link>
+            </li>
+          
+          </ul>
         </div>
       </div>
     </>

@@ -3,7 +3,7 @@ import Avtars from "./assets/avtarsgyde.png";
 import locationss from "./assets/locationgyde.png";
 import Start from "./assets/juststr.png";
 
-const CardsReviews = () => {
+const CardsReviews = ({title, des}) => {
   return (
     <div className="container mt-4 mb-3">
       <div className="card p-1">
@@ -17,7 +17,7 @@ const CardsReviews = () => {
               />
             </div>
             <div className="flex-grow-1">
-              <p className="m-0 fw-bold">Starting Work</p>
+              <p className="m-0 fw-bold">Vivek Kumar</p>
               <div className="d-flex align-items-center">
                 <img
                   src={locationss}
@@ -36,13 +36,8 @@ const CardsReviews = () => {
               <p className="m-0" >4/5</p>
             </div>
           </div>
-          <h3 style={{fontSize:28, fontWeight:"600", lineHeight:2, color:"rgba(0, 0, 102, 1)"}}>Laundry Service</h3>
-          <p className="card-text mb-3" style={{fontSize:20, lineHeight:1.4}}>
-            I recently had the pleasure of using Fresh & Clean Laundry Service,
-            and I couldn't be happier with the experience. From start to finish,
-            their service was impeccable and truly exceeded my expectations. The
-            staff was incredibly friendly and helpful, making the entire process
-            smooth
+          <h3 style={{fontSize:28, fontWeight:"600", lineHeight:2, color:"rgba(0, 0, 102, 1)"}}>{title}</h3>
+          <p className="card-text mb-3" style={{fontSize:20, lineHeight:1.4}}>{des}
           </p>
         </div>
       </div>

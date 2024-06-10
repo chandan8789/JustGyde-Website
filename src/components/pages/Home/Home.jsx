@@ -3,6 +3,9 @@ import homebg from "../../assets/pupple.png";
 import phone from "../../assets/Phone.png";
 import "./Home.css";
 import AboutUs from "../About/AboutUs";
+import OurServices from "../OurServices/OurServices";
+import Reviews from "../Reviews/Reviews";
+import Ecommerce from "../Reviews/Ecommerce";
 const Home = () => {
   return (
     <>
@@ -33,7 +36,9 @@ const Home = () => {
             className="phoneImagesmedia"
           />
         </div>
-        <AboutUs />
+        <OurServices/>
+        <Ecommerce/>
+        <Reviews/>
       </div>
     </>
   );

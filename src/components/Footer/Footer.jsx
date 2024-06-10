@@ -120,10 +120,10 @@ const Footer = () => {
                 <i class="bi bi-envelope" />
                 contact@Justgyde.com 
               </li>
-              <li className="d-flex align-items-center mb-2 text-white gap-2">
+              {/* <li className="d-flex align-items-center mb-2 text-white gap-2">
                 <i class="bi bi-telephone" />
                 (414) 687 - 5892
-              </li>
+              </li> */}
               <li className="d-flex align-items-center text-white gap-2">
                 <i class="bi bi-geo-alt" />
                 Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram, Haryana, 122002

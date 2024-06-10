@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../Navbar/Navbar";
 
-const OurMission = () => {
+const OurVission = () => {
   return (
     <>
       <div>
@@ -10,7 +10,7 @@ const OurMission = () => {
             className="text-center mt-5 fw-bold"
             style={{ color: "rgba(78, 66, 80, 1)" }}
           >
-            Our Mission
+            Our Vision
           </h1>
           <p>
             At Just Gyde, our mission is to empower individuals and communities
@@ -41,4 +41,4 @@ const OurMission = () => {
   );
 };
 
-export default OurMission;
+export default OurVission;
