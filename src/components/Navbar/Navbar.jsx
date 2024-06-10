@@ -2,8 +2,12 @@ import React from "react";
 import JustGydeLogo from "../assets/justgydelogo.png";
 import { Link } from "react-router-dom";
 
-function Navbar({naviation}) {
-  
+function Navbar() {
+  const handleCloseOffCanvas = () => {
+    const offcanvasElement = document.getElementById('offcanvasExample');
+    const bsOffcanvas = new window.bootstrap.Offcanvas(offcanvasElement);
+    bsOffcanvas.hide();
+  };
   return (
     <>
       <nav

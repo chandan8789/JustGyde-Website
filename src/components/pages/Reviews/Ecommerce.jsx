@@ -9,7 +9,7 @@ const Ecommerce = () => {
           <img src={EcommerImage} alt="Ecommerce" style={{ width: "100%" }} />
         </div>
         <div className="col-md-7">
-          <div className="mt-5">
+          <div className="mt-3 p-3">
             <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
               E-Commerce Service
             </h1>
