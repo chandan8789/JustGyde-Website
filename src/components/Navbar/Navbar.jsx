@@ -90,7 +90,7 @@ function Navbar() {
         aria-labelledby="offcanvasExampleLabel"
       >
         <div className="offcanvas-header">
-          <h1 className="offcanvas-title" id="offcanvasExampleLabel">
+          <h1 className="offcanvas-title fw-bold" id="offcanvasExampleLabel">
             JUSTGYDE
           </h1>
           <button
