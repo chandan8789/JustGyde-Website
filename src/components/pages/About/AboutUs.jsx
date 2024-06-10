@@ -4,7 +4,7 @@ import OurServices from "../OurServices/OurServices";
 
 const AboutUs = () => {
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid py-5 p-1">
       <h1
         className="text-center mt-5 fw-bold"
         style={{ color: "rgba(78, 66, 80, 1)" }}
