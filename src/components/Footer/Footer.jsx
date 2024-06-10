@@ -67,7 +67,7 @@ const Footer = () => {
             <h3 className="font-weight-bold mb-4 text-white">Company</h3>
             <ul className="list-unstyled">
               <li>
-                <Link href="#" className="text-white text-decoration-none">
+                <Link to="/about" className="text-white text-decoration-none">
                   About
                 </Link>
               </li>
@@ -77,12 +77,12 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white text-decoration-none">
+                <Link to="/services" className="text-white text-decoration-none">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white text-decoration-none">
+                <Link to="/reviews" className="text-white text-decoration-none">
                   Reviews
                 </Link>
               </li>
@@ -124,11 +124,11 @@ const Footer = () => {
                 <i class="bi bi-telephone" />
                 (414) 687 - 5892
               </li> */}
-              <li className="d-flex align-items-center text-white gap-2">
+              {/* <li className="d-flex align-items-center text-white gap-2">
                 <i class="bi bi-geo-alt" />
                 Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram, Haryana, 122002
 
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

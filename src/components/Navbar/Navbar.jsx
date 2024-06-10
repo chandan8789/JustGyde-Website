@@ -2,7 +2,8 @@ import React from "react";
 import JustGydeLogo from "../assets/justgydelogo.png";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar({naviation}) {
+  
   return (
     <>
       <nav
@@ -72,7 +73,6 @@ function Navbar() {
                   Reviews
                 </Link>
               </li>
-             
             </ul>
           </div>
         </div>
@@ -99,15 +99,17 @@ function Navbar() {
         <div className="offcanvas-body">
           <ul className="navbar-nav">
             <li className="nav-item me-3">
-              <Link className="nav-link" aria-current="page" to="/">
+              <Link className="nav-link" to="/">
                 Home
               </Link>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link">Our Mission</Link>
+              <Link className="nav-link" to="/our-mission">
+                Our Mission
+              </Link>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link" to="/vision">
+              <Link className="nav-link" to="/our-vission">
                 Our Vision
               </Link>
             </li>
@@ -126,7 +128,6 @@ function Navbar() {
                 Reviews
               </Link>
             </li>
-          
           </ul>
         </div>
       </div>

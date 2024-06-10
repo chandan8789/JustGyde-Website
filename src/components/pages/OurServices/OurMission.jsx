@@ -35,6 +35,9 @@ const OurMission = () => {
             a more inclusive society where everyone has the opportunity to
             thrive and reach their full potential.
           </p>
+
+          <p>Our mission is to empower individuals and communities by providing the tools and resources they need to thrive. We are dedicated to making essential services accessible, affordable, and efficient, ensuring that everyone has the opportunity to lead a healthier, more educated, financially secure, and enriched life. Join us in our mission to transform lives, promote equality, and build a brighter future for all. Together, we can make a lasting impact and create a world where access to essential services is a right, not a privilege.</p>
+
         </div>
       </div>
     </>

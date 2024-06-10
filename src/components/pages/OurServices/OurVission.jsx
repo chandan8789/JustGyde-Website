@@ -35,6 +35,9 @@ const OurVission = () => {
             a more inclusive society where everyone has the opportunity to
             thrive and reach their full potential.
           </p>
+
+          <p>Our vision is ambitious, but we are driven by the belief that every individual deserves the chance to live a fulfilling and enriched life. Join us on our journey to transform lives, empower communities, and build a brighter, more equitable future for all. Together, we can make a lasting impact and create a world where access to essential services is a given, not a challenge.</p>
+
         </div>
       </div>
     </>

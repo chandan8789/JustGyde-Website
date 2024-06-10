@@ -3,7 +3,7 @@ import Avtars from "./assets/avtarsgyde.png";
 import locationss from "./assets/locationgyde.png";
 import Start from "./assets/juststr.png";
 
-const CardsReviews = ({title, des}) => {
+const CardsReviews = ({title, des, Name}) => {
   return (
     <div className="container mt-4 mb-3">
       <div className="card p-1">
@@ -17,7 +17,7 @@ const CardsReviews = ({title, des}) => {
               />
             </div>
             <div className="flex-grow-1">
-              <p className="m-0 fw-bold">Vivek Kumar</p>
+              <p className="m-0 fw-bold">{Name}</p>
               <div className="d-flex align-items-center">
                 <img
                   src={locationss}
