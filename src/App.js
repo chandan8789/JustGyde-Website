@@ -8,6 +8,9 @@ import Reviews from "./components/pages/Reviews/Reviews";
 import Footer from "./components/Footer/Footer";
 import OurMission from "./components/pages/OurServices/OurMission";
 import OurVission from "./components/pages/OurServices/OurVission";
+import TermsAndConditions from "./components/TermsAndConditions";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import Supports from "./components/Supports";
 
 const App = () => {
   return (
@@ -20,7 +23,13 @@ const App = () => {
           <Route path="/services" element={<OurServices />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/our-mission" element={<OurMission />} />
-          <Route path="/our-vission" element={<OurVission/>}/>
+          <Route path="/our-vission" element={<OurVission />} />
+          <Route path="/faq" element={<Supports/>}/>
+          <Route
+            path="/terms-and-conditions"
+            element={<TermsAndConditions />}
+          />
+          <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
         </Routes>
         <Footer />
       </div>

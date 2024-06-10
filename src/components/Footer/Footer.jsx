@@ -23,7 +23,10 @@ const Footer = () => {
               alt="JustGyde Logo"
             />
             <p className="mb-4 text-white">
-            Dependable solutions, tailored to your needs, ensuring quality and consistency. Exceptional support, exceeding expectations with personalized and attentive care.            </p>
+              Dependable solutions, tailored to your needs, ensuring quality and
+              consistency. Exceptional support, exceeding expectations with
+              personalized and attentive care.{" "}
+            </p>
             <div className="d-flex gap-3">
               <Link href="#" className="me-2">
                 <img
@@ -91,28 +94,34 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-3 mb-6 mb-md-0 mt-2">
-            <h3 className="font-weight-bold mb-4 text-white">Support</h3>
+            <h3 className="font-weight-bold mb-4 text-white">Supports</h3>
             <ul className="list-unstyled">
               <li>
-                <Link href="#" className="text-white text-decoration-none">
-                  Getting started
+                <Link
+                  to="/terms-and-conditions"
+                  className="text-white text-decoration-none"
+                >
+                  Terms and Condition
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white text-decoration-none">
-                  Help center
+                <Link
+                  to="/privacy-policy"
+                  className="text-white text-decoration-none"
+                >
+                  Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white text-decoration-none">
-                  Server status
+                <Link to="/faq" className="text-white text-decoration-none">
+                  FAQ
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#" className="text-white text-decoration-none">
                   Report a bug
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="col-md-3 mt-2">
