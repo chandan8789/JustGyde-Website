@@ -23,8 +23,7 @@ const Footer = () => {
               alt="JustGyde Logo"
             />
             <p className="mb-4 text-white">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
-            </p>
+            Dependable solutions, tailored to your needs, ensuring quality and consistency. Exceptional support, exceeding expectations with personalized and attentive care.            </p>
             <div className="d-flex gap-3">
               <Link href="#" className="me-2">
                 <img
@@ -77,7 +76,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-white text-decoration-none">
+                <Link
+                  to="/services"
+                  className="text-white text-decoration-none"
+                >
                   Services
                 </Link>
               </li>
@@ -118,17 +120,17 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li className="d-flex align-items-center mb-2 text-white gap-2">
                 <i class="bi bi-envelope" />
-                contact@Justgyde.com 
+                contact@Justgyde.com
               </li>
               {/* <li className="d-flex align-items-center mb-2 text-white gap-2">
                 <i class="bi bi-telephone" />
                 (414) 687 - 5892
               </li> */}
-              {/* <li className="d-flex align-items-center text-white gap-2">
+              <li className="d-flex align-items-center text-white gap-2">
                 <i class="bi bi-geo-alt" />
-                Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram, Haryana, 122002
-
-              </li> */}
+                Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram,
+                Haryana, 122002
+              </li>
             </ul>
           </div>
         </div>
