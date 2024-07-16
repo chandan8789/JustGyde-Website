@@ -1,20 +1,26 @@
 import React, { useState } from "react";
 import JustGydeLogo from "../assets/justgydelogo.png";
-import { Link, NavLink } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Navbar() {
   const [useOverlay, setUseOverlay] = useState(false);
+  const navigate = useNavigate();
 
   const onOverlay = () => {
     setUseOverlay(!useOverlay);
   };
+
+  const handleNavigation = (path) => {
+    navigate(path);
+    setUseOverlay(false);
+  };
+
   return (
     <>
       <nav
         className="navbar navbar-expand-lg navbar-light fixed-top"
         style={{
           background: "rgba(78, 66, 80, 1)",
-          // position: "absolute",
           top: 0,
           left: 0,
           right: 0,
@@ -110,39 +116,74 @@ function Navbar() {
         <div className="offcanvas-body">
           <ul className="navbar-nav">
             <li className="nav-item me-3">
-              <NavLink className="nav-link" to="/">
+              <Link
+                className="nav-link"
+                to="/"
+                onClick={() => handleNavigation("/")}
+                data-bs-dismiss="offcanvas"
+              >
                 Home
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item me-3">
-              <NavLink className="nav-link" to="/our-mission">
+              <Link
+                className="nav-link"
+                to="/our-mission"
+                onClick={() => handleNavigation("/our-mission")}
+                data-bs-dismiss="offcanvas"
+              >
                 Our Mission
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item me-3">
-              <NavLink className="nav-link" to="/our-vission">
+              <Link
+                className="nav-link"
+                to="/our-vission"
+                onClick={() => handleNavigation("/our-vission")}
+                data-bs-dismiss="offcanvas"
+              >
                 Our Vision
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item me-3">
-              <NavLink className="nav-link" to="/about">
+              <Link
+                className="nav-link"
+                to="/about"
+                onClick={() => handleNavigation("/about")}
+                data-bs-dismiss="offcanvas"
+              >
                 About
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item me-3">
-              <NavLink className="nav-link" to="/services">
+              <Link
+                className="nav-link"
+                to="/services"
+                onClick={() => handleNavigation("/services")}
+                data-bs-dismiss="offcanvas"
+              >
                 Services
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item me-3">
-              <NavLink className="nav-link" to="/reviews">
+              <Link
+                className="nav-link"
+                to="/reviews"
+                onClick={() => handleNavigation("/reviews")}
+                data-bs-dismiss="offcanvas"
+              >
                 Reviews
-              </NavLink>
+              </Link>
             </li>
             <li className="nav-item me-3">
-              <NavLink className="nav-link" to="/refund-policy">
+              <Link
+                className="nav-link"
+                to="/refund-policy"
+                onClick={() => handleNavigation("/refund-policy")}
+                data-bs-dismiss="offcanvas"
+              >
                 Refund Policy
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>
