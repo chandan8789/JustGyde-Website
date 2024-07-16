@@ -20,7 +20,9 @@ const AboutUs = () => {
           user-friendly.
         </p>
         <p style={{ color: " rgba(0, 0, 102, 1)" }}>
-        Just Gyde is dedicated to improving lives by bridging gaps in essential services. Our passionate team works tirelessly to bring you innovative solutions that simplify everyday life.
+          Just Gyde is dedicated to improving lives by bridging gaps in
+          essential services. Our passionate team works tirelessly to bring you
+          innovative solutions that simplify everyday life.
         </p>
       </div>
     </div>

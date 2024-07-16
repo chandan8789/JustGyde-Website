@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import JustGydeLogo from "../assets/justgydelogo.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
-  const handleCloseOffCanvas = () => {
-    const offcanvasElement = document.getElementById('offcanvasExample');
-    const bsOffcanvas = new window.bootstrap.Offcanvas(offcanvasElement);
-    bsOffcanvas.hide();
+  const [useOverlay, setUseOverlay] = useState(false);
+
+  const onOverlay = () => {
+    setUseOverlay(!useOverlay);
   };
   return (
     <>
@@ -35,6 +35,8 @@ function Navbar() {
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasExample"
             aria-controls="offcanvasExample"
+            onClick={onOverlay}
+            aria-label="Close"
           >
             <i className="bi bi-justify text-white"></i>
           </button>
@@ -77,6 +79,11 @@ function Navbar() {
                   Reviews
                 </Link>
               </li>
+              <li className="nav-item me-3">
+                <Link className="nav-link text-white" to="/refund-policy">
+                  Refund Policy
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -103,34 +110,39 @@ function Navbar() {
         <div className="offcanvas-body">
           <ul className="navbar-nav">
             <li className="nav-item me-3">
-              <Link className="nav-link" to="/">
+              <NavLink className="nav-link" to="/">
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link" to="/our-mission">
+              <NavLink className="nav-link" to="/our-mission">
                 Our Mission
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link" to="/our-vission">
+              <NavLink className="nav-link" to="/our-vission">
                 Our Vision
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link" to="/about">
+              <NavLink className="nav-link" to="/about">
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link" to="/services">
+              <NavLink className="nav-link" to="/services">
                 Services
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link" to="/reviews">
+              <NavLink className="nav-link" to="/reviews">
                 Reviews
-              </Link>
+              </NavLink>
+            </li>
+            <li className="nav-item me-3">
+              <NavLink className="nav-link" to="/refund-policy">
+                Refund Policy
+              </NavLink>
             </li>
           </ul>
         </div>

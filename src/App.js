@@ -11,6 +11,7 @@ import OurVission from "./components/pages/OurServices/OurVission";
 import TermsAndConditions from "./components/TermsAndConditions";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import Supports from "./components/Supports";
+import RefundPolicy from "./components/pages/RefundPolicy";
 
 const App = () => {
   return (
@@ -24,12 +25,13 @@ const App = () => {
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/our-mission" element={<OurMission />} />
           <Route path="/our-vission" element={<OurVission />} />
-          <Route path="/faq" element={<Supports/>}/>
+          <Route path="/faq" element={<Supports />} />
           <Route
             path="/terms-and-conditions"
             element={<TermsAndConditions />}
           />
-          <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/refund-policy" element={<RefundPolicy />} />
         </Routes>
         <Footer />
       </div>
