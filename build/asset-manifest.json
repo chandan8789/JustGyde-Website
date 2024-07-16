@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.631f59ec.css",
+    "main.js": "/static/js/main.eb626f07.js",
+    "static/media/nurses.jpg": "/static/media/nurses.3f1aad50d286553a43f7.jpg",
+    "static/media/businnes.jpg": "/static/media/businnes.6cd71de6f6b7ec4201be.jpg",
+    "static/media/enterainment.jpg": "/static/media/enterainment.9e680930da57ca559d16.jpg",
+    "static/media/Aboutus.png": "/static/media/Aboutus.19caf6accdb73c83ab78.png",
+    "static/media/avtarsgyde.png": "/static/media/avtarsgyde.664c14a455b7ebf98452.png",
+    "static/media/educations.jpg": "/static/media/educations.039d15b2ef2f16dabaaf.jpg",
+    "static/media/ecommerce.jpg": "/static/media/ecommerce.fd4c0517a9d65636d738.jpg",
+    "static/media/Phone.png": "/static/media/Phone.b42a6172437a7b9379f0.png",
+    "static/media/juststr.png": "/static/media/juststr.8fa3bdeb6a10482e19ca.png",
+    "static/media/justgydelogo.png": "/static/media/justgydelogo.64ee9d689790cf92a4d2.png",
+    "static/media/Instagram.png": "/static/media/Instagram.f947f0d6dfe746b3632f.png",
+    "static/media/Twitter.png": "/static/media/Twitter.9d480cf2c9afa06f2620.png",
+    "static/media/locationgyde.png": "/static/media/locationgyde.b3368e2bb987d6ebfc9a.png",
+    "index.html": "/index.html",
+    "main.631f59ec.css.map": "/static/css/main.631f59ec.css.map",
+    "main.eb626f07.js.map": "/static/js/main.eb626f07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.631f59ec.css",
+    "static/js/main.eb626f07.js"
+  ]
+}
