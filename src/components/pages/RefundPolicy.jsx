@@ -104,6 +104,18 @@ const RefundPolicy = () => {
           For any questions or concerns about this Refund Policy, please contact
           us at:
         </p>
+        <p className="mt-1 mx-4">
+          <strong>Email:</strong> justgyde@gmail.com
+        </p>
+        <p className="m-1 mx-4">
+          <strong>Address:</strong> Forum DLF Cyber City, Phase III, Sector 24,
+          DLF QE, Dlf QE, Gurgaon, Haryana, India, 122002
+        </p>
+
+        <p className="mt-4 mx-4">
+          By using our services, you acknowledge that you have read and agree to
+          our Refund Policy.
+        </p>
       </div>
     </div>
   );
