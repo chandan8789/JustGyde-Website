@@ -36,7 +36,7 @@ const Supports = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
+        {/* <div class="accordion-item">
           <h2 class="accordion-header">
             <button
               class="accordion-button collapsed"
@@ -61,7 +61,7 @@ const Supports = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
@@ -83,8 +83,7 @@ const Supports = () => {
             <div class="accordion-body">
               <p>
                 You can contact our customer support team by emailing
-                contact@Justgyde.com or by calling our toll-free number at
-                1-800-123-4567 Just Gyde.
+                Justgyde@gmail.com.
               </p>
             </div>
           </div>

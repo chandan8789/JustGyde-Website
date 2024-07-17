@@ -35,13 +35,7 @@ const Footer = () => {
                   style={{ height: "20px", width: "15px" }}
                 />
               </Link>
-              {/* <Link href="#" className="me-2">
-                <img
-                  src={Twit}
-                  alt=""
-                  style={{ height: "20px", width: "20px" }}
-                />
-              </Link> */}
+
               <a href="https://www.instagram.com/justgyde/" className="me-2">
                 <img
                   src={insta}
@@ -49,13 +43,7 @@ const Footer = () => {
                   style={{ height: "20px", width: "20px" }}
                 />
               </a>
-              {/* <Link href="#" className="me-2">
-                <img
-                  src={link}
-                  alt=""
-                  style={{ height: "20px", width: "20px" }}
-                />
-              </Link> */}
+
               <a href="https://youtube.com/@justgyde?si=L-Orlf7SeBqMetqD">
                 <img
                   src={you}
@@ -76,11 +64,7 @@ const Footer = () => {
                   Refund Policy
                 </Link>
               </li>
-              {/* <li>
-                <Link href="#" className="text-white text-decoration-none">
-                  Contact us
-                </Link>
-              </li> */}
+
               <li>
                 <Link
                   to="/services"

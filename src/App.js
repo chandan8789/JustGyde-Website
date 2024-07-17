@@ -12,12 +12,14 @@ import TermsAndConditions from "./components/TermsAndConditions";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import Supports from "./components/Supports";
 import RefundPolicy from "./components/pages/RefundPolicy";
+import ScrollToTop from "./components/ScrollTop";
 
 const App = () => {
   return (
     <Router>
       <div>
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
