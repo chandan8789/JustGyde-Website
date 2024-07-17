@@ -9,14 +9,14 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div style={{ backgroundColor: "rgba(78, 66, 80, 1)", padding: "50px" }}>
+    <div style={{ backgroundColor: "rgba(78, 66, 80, 1)", padding: "10px" }}>
       <div className="container">
         <div className="row">
           <div className="col-md-3 mb-6 mb-md-0 mb-3">
             <img
               style={{
                 height: "60px",
-                width: "170px",
+                width: "160px",
                 objectFit: "contain",
               }}
               src={logo}
@@ -35,49 +35,52 @@ const Footer = () => {
                   style={{ height: "20px", width: "15px" }}
                 />
               </Link>
-              <Link href="#" className="me-2">
+              {/* <Link href="#" className="me-2">
                 <img
                   src={Twit}
                   alt=""
                   style={{ height: "20px", width: "20px" }}
                 />
-              </Link>
-              <Link href="#" className="me-2">
+              </Link> */}
+              <a href="https://www.instagram.com/justgyde/" className="me-2">
                 <img
                   src={insta}
                   alt=""
                   style={{ height: "20px", width: "20px" }}
                 />
-              </Link>
-              <Link href="#" className="me-2">
+              </a>
+              {/* <Link href="#" className="me-2">
                 <img
                   src={link}
                   alt=""
                   style={{ height: "20px", width: "20px" }}
                 />
-              </Link>
-              <Link href="#">
+              </Link> */}
+              <a href="https://youtube.com/@justgyde?si=L-Orlf7SeBqMetqD">
                 <img
                   src={you}
                   alt=""
                   style={{ height: "20px", width: "20px" }}
                 />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="col-md-3 mb-6 mb-md-0 mt-2">
             <h3 className="font-weight-bold mb-4 text-white">Company</h3>
             <ul className="list-unstyled">
               <li>
-                <Link to="/about" className="text-white text-decoration-none">
-                  About
+                <Link
+                  to="/refund-policy"
+                  className="text-white text-decoration-none"
+                >
+                  Refund Policy
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#" className="text-white text-decoration-none">
                   Contact us
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to="/services"
@@ -117,11 +120,6 @@ const Footer = () => {
                   FAQ
                 </Link>
               </li>
-              {/* <li>
-                <Link href="#" className="text-white text-decoration-none">
-                  Report a bug
-                </Link>
-              </li> */}
             </ul>
           </div>
           <div className="col-md-3 mt-2">
@@ -129,7 +127,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li className="d-flex align-items-center mb-2 text-white gap-2">
                 <i class="bi bi-envelope" />
-                contact@Justgyde.com
+                Justgyde@gmail.com
               </li>
               {/* <li className="d-flex align-items-center mb-2 text-white gap-2">
                 <i class="bi bi-telephone" />

@@ -85,11 +85,11 @@ function Navbar() {
                   Reviews
                 </Link>
               </li>
-              <li className="nav-item me-3">
+              {/* <li className="nav-item me-3">
                 <Link className="nav-link text-white" to="/refund-policy">
                   Refund Policy
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -175,7 +175,7 @@ function Navbar() {
                 Reviews
               </Link>
             </li>
-            <li className="nav-item me-3">
+            {/* <li className="nav-item me-3">
               <Link
                 className="nav-link"
                 to="/refund-policy"
@@ -184,7 +184,7 @@ function Navbar() {
               >
                 Refund Policy
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
