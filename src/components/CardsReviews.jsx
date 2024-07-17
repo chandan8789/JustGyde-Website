@@ -1,5 +1,4 @@
 import React from "react";
-import Avtars from "./assets/avtarsgyde.png";
 import locationss from "./assets/locationgyde.png";
 import Start from "./assets/juststr.png";
 
