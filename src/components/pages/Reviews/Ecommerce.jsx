@@ -13,7 +13,7 @@ const Ecommerce = () => {
             <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
               E-Commerce Service
             </h1>
-            <p className="mt-4">
+            <p className="lead mt-4">
               Just Gyde is a versatile platform that caters to a wide range of
               services, including a robust E-commerce service dedicated to the
               sale of Fast-Moving Consumer Goods (FMCG). Our E-commerce service
