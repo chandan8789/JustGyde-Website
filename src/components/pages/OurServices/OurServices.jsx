@@ -31,9 +31,8 @@ const OurServices = () => {
           <SecondCards
             img={Entertainment}
             title="Entertainment Service"
-            des="Just Gyde brings excitement to your life with a wide array of entertainment services. We have partnerships with multiple and other entities to offer exclusive deals and rewards. Our platform allows users to earn and redeem coins for various entertainment activities. Enjoy movies, events, and more with our seamless booking and reward system. We aim to make entertainment accessible and affordable for everyone. Our services include discounts on movie tickets, event passes, and more. Just Gyde enhances your leisure time by providing curated entertainment experiences. Dive into a world of fun and relaxation with Just Gyde, where entertainment meets convenience.
-        
-        "
+            des="
+Just Health brings well-being to your life with a comprehensive range of medical services. We have partnerships with various healthcare providers and other entities to offer exclusive deals and rewards. Our platform allows users to earn and redeem points for various medical services and products. Access doctors, clinics, and more with our seamless booking and reward system. We aim to make healthcare accessible and affordable for everyone. Our services include discounts on consultations, medical tests, and more. Just Health enhances your healthcare experience by providing curated medical services. Dive into a world of health and wellness with Just Health, where healthcare meets convenience."
           />
         </div>
         <div className="container mt-4">
@@ -53,8 +52,6 @@ const OurServices = () => {
           />
         </div>
       </div>
-
-  
     </div>
   );
 };

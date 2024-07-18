@@ -30,7 +30,8 @@ const CardsReviews = ({ title, des, Name, img }) => {
               <img
                 src={Start}
                 alt="Rating"
-                style={{ height: "30px", width: "150px" }}
+                className="w-50"
+                // style={{ height: "30px", width: "150px" }}
               />
               <p className="m-0">4/5</p>
             </div>

@@ -1,13 +1,13 @@
 .centered {
   position: absolute;
-  top: 50%!important;
+  top: 50% !important;
   left: 40%;
   transform: translate(-50%, -50%);
   color: white;
 }
 
 .letter-spacing {
-  letter-spacing: 7px;
+  letter-spacing: 8px;
 }
 
 @media (max-width: 767.98px) {
