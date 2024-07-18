@@ -15,8 +15,12 @@ const TermsAndConditions = () => {
             Please read these terms and conditions carefully before using Our
             Service.
           </p>
-          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>Interpretation and Definitions</h1>
-          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>Interpretation</h1>
+          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
+            Interpretation and Definitions
+          </h1>
+          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
+            Interpretation
+          </h1>
           <p>
             The words of which the initial letter is capitalized have meanings
             defined under the following conditions. The following definitions
@@ -25,25 +29,33 @@ const TermsAndConditions = () => {
           </p>
         </div>
         <div>
-          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>Definitions</h1>
+          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
+            Definitions
+          </h1>
           <p>For the purposes of these Terms and Conditions:</p>
           <p>
-            <strong>Company </strong>(referred to as either "the Company", "We", "Us" or "Our" in
-            this Agreement) refers to Your Company Name, Your Company Address.
+            <strong>Company </strong>(referred to as either "the Company", "We",
+            "Us" or "Our" in this Agreement) refers "AERO BEE STAR GLOBAL
+            SOLUTIONS INDIA PRIVATE LIMITED", Forum DLF Cyber City, Phase III,
+            DLF QE, Sector 24, Gurugram, Haryana, 122002.
           </p>
-          <p><strong>Service</strong> refers to the Website.</p>
+          <p>
+            <strong>Service</strong> refers to the Website.
+          </p>
           <p>
             <strong>Website</strong> refers to Our Website, accessible from
-            https://www.yourwebsite.com
+            <a href="http://www.justgyde.com/"> https://www.justgyde.com</a>
           </p>
           <p>
-            <strong>You</strong> means the individual accessing or using the Service, or the
-            company, or other legal entity on behalf of which such individual is
-            accessing or using the Service, as applicable.
+            <strong>You</strong> means the individual accessing or using the
+            Service, or the company, or other legal entity on behalf of which
+            such individual is accessing or using the Service, as applicable.
           </p>
         </div>
         <div>
-          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>Acknowledgment</h1>
+          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
+            Acknowledgment
+          </h1>
           <p>
             These are the Terms and Conditions governing the use of this Service
             and the agreement that operates between You and the Company. These
@@ -63,7 +75,9 @@ const TermsAndConditions = () => {
           </p>
         </div>
         <div>
-          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>Termination</h1>
+          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
+            Termination
+          </h1>
           <p>
             We may terminate or suspend Your access immediately, without prior
             notice or liability, for any reason whatsoever, including without
@@ -75,15 +89,17 @@ const TermsAndConditions = () => {
           </p>
         </div>
         <div>
-          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>Limitation of Liability</h1>
-          <p>
+          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
+            Limitation of Liability
+          </h1>
+          {/* <p>
             Notwithstanding any damages that You might incur, the entire
             liability of the Company and any of its suppliers under any
             provision of this Terms and Your exclusive remedy for all of the
             foregoing shall be limited to the amount actually paid by You
             through the Service or 100 USD if You haven't purchased anything
             through the Service.
-          </p>
+          </p> */}
           <p>
             To the maximum extent permitted by applicable law, in no event shall
             the Company or its suppliers be liable for any special, incidental,
@@ -99,7 +115,9 @@ const TermsAndConditions = () => {
           </p>
         </div>
         <div>
-          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>Governing Law</h1>
+          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
+            Governing Law
+          </h1>
           <p>
             The laws of the Country, excluding its conflicts of law rules, shall
             govern this Terms and Your use of the Service. Your use of the
@@ -108,7 +126,9 @@ const TermsAndConditions = () => {
           </p>
         </div>
         <div>
-          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>Changes to These Terms and Conditions</h1>
+          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
+            Changes to These Terms and Conditions
+          </h1>
           <p>
             We reserve the right, at Our sole discretion, to modify or replace
             these Terms at any time. If a revision is material We will make
@@ -124,10 +144,15 @@ const TermsAndConditions = () => {
           </p>
         </div>
         <div>
-          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>Contact Us</h1>
+          <h1 className="fw-bold" style={{ color: "rgba(78, 66, 80, 1)" }}>
+            Contact Us
+          </h1>
           <p>
             If you have any questions about these Terms and Conditions, You can
             contact us:
+          </p>
+          <p>
+            Email: <a href="mailto:justgyde@gmail.com">justgyde@gmail.com</a>
           </p>
         </div>
       </div>

@@ -28,13 +28,13 @@ function Navbar() {
         }}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link to="/" className="navbar-brand" href="">
             <img
               src={JustGydeLogo}
               alt=""
               style={{ width: "150px", objectFit: "contain" }}
             />
-          </a>
+          </Link>
           <button
             className="btn navbar-toggler border-light"
             type="button"

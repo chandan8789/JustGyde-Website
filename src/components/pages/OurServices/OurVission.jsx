@@ -14,36 +14,31 @@ const OurVission = () => {
               Our Vision
             </h1>
             <p>
-              At Just Gyde, our mission is to empower individuals and
-              communities by providing seamless access to essential services in
-              healthcare, education, finance, and entertainment. We are
-              committed to creating user-friendly solutions that simplify daily
-              life and promote equality. By bridging the gaps in these vital
-              areas, we aim to foster healthier, more educated, financially
-              secure, and enriched lives for everyone.
+              At Just Gyde, our vision is to create a world where access to
+              essential services in healthcare, education, finance, and
+              entertainment is seamless, universal, and equitable. We envision a
+              future where individuals and communities are empowered through
+              user-friendly solutions that simplify daily life and promote
+              equality.
             </p>
             <p>
-              At Just Gyde, our mission is to empower individuals and
-              communities by providing seamless access to essential services in
-              healthcare, education, finance, and entertainment. We are
-              committed to creating user-friendly solutions that simplify daily
-              life and promote equality. By bridging the gaps in these vital
-              areas, we aim to foster healthier, more educated, financially
-              secure, and enriched lives for everyone. Our dedicated team
-              leverages technology and innovative approaches to ensure that
-              these services are accessible, affordable, and efficient. We
-              believe that by enhancing access to these fundamental services, we
-              can drive positive change and create a more inclusive society
-              where everyone has the opportunity to thrive and reach their full
-              potential.
+              We strive to bridge the gaps in these vital areas, fostering
+              healthier, more educated, financially secure, and enriched lives
+              for everyone. Our dedicated team leverages technology and
+              innovative approaches to ensure these services are not only
+              accessible but also affordable and efficient.
             </p>
             <p>
-              Our vision is ambitious, but we are driven by the belief that
-              every individual deserves the chance to live a fulfilling and
-              enriched life. Join us on our journey to transform lives, empower
-              communities, and build a brighter, more equitable future for all.
-              Together, we can make a lasting impact and create a world where
-              access to essential services is a given, not a challenge.
+              We believe that enhancing access to these fundamental services
+              will drive positive change and contribute to a more inclusive
+              society. Our vision is to build a world where everyone has the
+              opportunity to thrive and reach their full potential.
+            </p>
+            <p>
+              Join us in our vision to transform lives, promote equality, and
+              create a brighter future for all. Together, we can make a lasting
+              impact and ensure that access to essential services becomes a
+              right, not a privilege.
             </p>
           </div>
         </div>

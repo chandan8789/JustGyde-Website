@@ -63,7 +63,7 @@ const RefundPolicy = () => {
         </p>
         <p className="m-1 mx-4">
           <strong>Contact Customer Support:</strong> Email us at
-          justgyde@gmail.com.
+          <a href="mailto:justgyde@gmail.com"> justgyde@gmail.com</a>
         </p>
 
         <p className="m-1 mx-4">
@@ -89,7 +89,7 @@ const RefundPolicy = () => {
         <p className="mx-4 mt-1">
           If you disagree with the outcome of your refund request, you can
           escalate the matter by contacting our customer service manager at
-          justgyde@gmail.com.
+          <a href="mailto:justgyde@gmail.com"> justgyde@gmail.com</a>
         </p>
 
         <h4 className="fw-bold">6. Changes to This Policy</h4>
@@ -105,11 +105,12 @@ const RefundPolicy = () => {
           us at:
         </p>
         <p className="mt-1 mx-4">
-          <strong>Email:</strong> justgyde@gmail.com
+          <strong>Email:</strong>{" "}
+          <a href="mailto:justgyde@gmail.com"> justgyde@gmail.com</a>
         </p>
         <p className="m-1 mx-4">
           <strong>Address:</strong> Forum DLF Cyber City, Phase III, Sector 24,
-          DLF QE, Dlf QE, Gurgaon, Haryana, India, 122002
+          DLF QE, Gurgaon, Haryana, India, 122002
         </p>
 
         <p className="mt-4 mx-4">

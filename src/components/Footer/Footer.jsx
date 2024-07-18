@@ -111,7 +111,10 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li className="d-flex align-items-center mb-2 text-white gap-2">
                 <i class="bi bi-envelope" />
-                Justgyde@gmail.com
+                <a href="mailto:justgyde@gmail.com" className="text-white">
+                  {" "}
+                  justgyde@gmail.com
+                </a>
               </li>
               {/* <li className="d-flex align-items-center mb-2 text-white gap-2">
                 <i class="bi bi-telephone" />

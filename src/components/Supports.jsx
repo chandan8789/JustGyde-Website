@@ -30,8 +30,9 @@ const Supports = () => {
           >
             <div class="accordion-body">
               <p>
-                To create an account, click on the "Sign Up" button on the top
-                right corner of the page and follow the instructions Just Gyde.
+                To create an account, click on the "Sign Up" button which is
+                right below the login button in the just App the page and follow
+                the instructions Just Gyde.
               </p>
             </div>
           </div>
@@ -83,7 +84,7 @@ const Supports = () => {
             <div class="accordion-body">
               <p>
                 You can contact our customer support team by emailing
-                Justgyde@gmail.com.
+                <a href="mailto:justgyde@gmail.com"> justgyde@gmail.com</a>
               </p>
             </div>
           </div>
@@ -110,7 +111,7 @@ const Supports = () => {
             <div class="accordion-body">
               <p>
                 Refund policies vary depending on the product or service. Please
-                refer to our refund policy page for more informationJust Gyde.
+                refer to our refund policy page.
               </p>
             </div>
           </div>
