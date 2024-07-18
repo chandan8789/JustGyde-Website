@@ -19,7 +19,7 @@ const Reviews = () => {
               img="https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg"
               Name="Amit Yadav"
               title="Medical Service"
-              des="Booking consultations, tests, and more is seamless with their user-friendly system. I’ve enjoyed significant discounts on doctor appointments and diagnostic tests, which has been a huge relief. Just Health has definitely enhanced my healthcare experience by providing curated medical services tailored to my needs. I highly recommend Just Health to anyone looking to dive into a world of health and well-being. They’ve truly made healthcare meet convenience!"
+              des="I recently used JustGyde's medical services, and I couldn't be more satisfied. The process was seamless from start to finish. I easily booked an appointment with a specialist through their app, and the entire experience was smooth and hassle-free. The staff was professional, and I felt well taken care of. The convenience of having access to top-notch medical services through JustGyde is truly remarkable. I highly recommend their services to anyone seeking quality healthcare without the usual stress and complications."
             />
           </div>
           <div className="col-12 col-sm-10 col-md-6 col-lg-5 mb-4">
@@ -27,7 +27,7 @@ const Reviews = () => {
               img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_k00ibnFvQaMvvSRBY3ZBpT3Cit1hn9ztHw&s"
               Name="Kajal Yadav"
               title="FMCG Services"
-              des="Just Gyde revolutionizes your shopping experience with a wide range of FMCG (Fast-Moving Consumer Goods) services. We have partnered with top brands to offer exclusive discounts and rewards on everyday essentials. Our platform allows you to earn and redeem coins for purchases, Experience the convenience of seamless shopping, timely delivery, and exceptional customer service. With Just Gyde, your daily essentials are just a click away, making life simpler and more affordable."
+              des="JustGyde's FMCG services have completely transformed my shopping experience. I found an incredible range of products at unbeatable prices. The app's user-friendly interface made it easy to browse and order everything I needed, from daily essentials to specialty items. The delivery was prompt, and the quality of the products exceeded my expectations. I love the convenience and the savings I get with JustGyde's FMCG services. It's now my go-to platform for all my grocery and household needs. Highly recommended!"
             />
           </div>
         </div>

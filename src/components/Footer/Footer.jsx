@@ -36,7 +36,12 @@ const Footer = () => {
                 />
               </Link>
 
-              <a href="https://www.instagram.com/justgyde/" className="me-2">
+              <a
+                href="https://www.instagram.com/justgyde/"
+                className="me-2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={insta}
                   alt=""
@@ -44,7 +49,12 @@ const Footer = () => {
                 />
               </a>
 
-              <a href="https://youtube.com/@justgyde?si=L-Orlf7SeBqMetqD">
+              <a
+                href="https://youtube.com/@justgyde?si=L-Orlf7SeBqMetqD"
+                className="me-2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={you}
                   alt=""
