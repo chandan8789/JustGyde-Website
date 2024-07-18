@@ -18,8 +18,10 @@ const Home = () => {
               alt=""
             />
           </Link>
-          <div class="centered">
-            <h1 className="m-0 fw-bold letter-spacing">Reliable Solutions,</h1>
+          <div className="centered mt-5">
+            <h1 className="m-0 fw-bold letter-spacing mt-5">
+              Reliable Solutions,
+            </h1>
             <h1 className="m-0 fw-bold letter-spacing">Exceptional Service</h1>
             <p className="w-75 mt-4">
               At our company "AERO BEE STAR GLOBAL SOLUTIONS INDIA PRIVATE
