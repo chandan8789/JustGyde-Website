@@ -5,12 +5,19 @@ import "./Home.css";
 import OurServices from "../OurServices/OurServices";
 import Reviews from "../Reviews/Reviews";
 import Ecommerce from "../Reviews/Ecommerce";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
       <div>
         <div>
-          <img style={{ width: "100%", height: "100vh" }} src={homebg} alt="" />
+          <Link to="/">
+            <img
+              style={{ width: "100%", height: "100vh" }}
+              src={homebg}
+              alt=""
+            />
+          </Link>
           <div class="centered">
             <h1 className="m-0 fw-bold letter-spacing">Reliable Solutions,</h1>
             <h1 className="m-0 fw-bold letter-spacing">Exceptional Service</h1>
