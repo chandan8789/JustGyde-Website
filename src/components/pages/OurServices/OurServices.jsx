@@ -54,7 +54,7 @@ const OurServices = () => {
             
             
             
-            Just Health brings well-being to your life with a comprehensive range of medical services. We have partnerships with various healthcare providers and other entities to offer exclusive deals and rewards. Our platform allows users to earn and redeem points for various medical services and products. Access doctors, clinics, and more with our seamless booking and reward system. We aim to make healthcare accessible and affordable for everyone. Our services include discounts on consultations, medical tests, and more. Just Health enhances your healthcare experience by providing curated medical services. Dive into a world of health and wellness with Just Health, where healthcare meets convenience.
+            JustGyde brings well-being to your life with a comprehensive range of medical services. We have partnerships with various healthcare providers and other entities to offer exclusive deals and rewards. Our platform allows users to earn and redeem points for various medical services and products. Access doctors, clinics, and more with our seamless booking and reward system. We aim to make healthcare accessible and affordable for everyone. Our services include discounts on consultations, medical tests, and more. Just Health enhances your healthcare experience by providing curated medical services. Dive into a world of health and wellness with Just Health, where healthcare meets convenience.
             "
           />
         </div>

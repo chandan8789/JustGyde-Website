@@ -132,11 +132,17 @@ const Footer = () => {
       <div className="container mt-8 border-top border-light pt-4 text-center small mt-5">
         <p className="text-white">
           All Rights Reserved |{" "}
-          <Link href="#" className="text-white text-decoration-none">
+          <Link
+            to="/terms-and-conditions"
+            className="text-white text-decoration-none"
+          >
             Terms and Conditions
           </Link>{" "}
           |{" "}
-          <Link href="#" className="text-white text-decoration-none">
+          <Link
+            to="/privacy-policy"
+            className="text-white text-decoration-none"
+          >
             Privacy Policy
           </Link>
         </p>
