@@ -31,8 +31,7 @@ const Supports = () => {
             <div class="accordion-body">
               <p>
                 To create an account, click on the "Sign Up" button which is
-                right below the login button in the just App the page and follow
-                the instructions Just Gyde.
+                right below the login button in the just App.
               </p>
             </div>
           </div>
