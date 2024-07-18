@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <div>
         <div>
-          <img style={{ width: "100%", height: "90vh" }} src={homebg} alt="" />
+          <img style={{ width: "100%", height: "100vh" }} src={homebg} alt="" />
           <div class="centered">
             <h1 className="m-0 fw-bold letter-spacing">Reliable Solutions,</h1>
             <h1 className="m-0 fw-bold letter-spacing">Exceptional Service</h1>
