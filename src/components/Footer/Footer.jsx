@@ -6,6 +6,7 @@ import link from "../assets/LinkedIn.png";
 import Twit from "../assets/Twitter.png";
 import you from "../assets/YouTube.png";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
@@ -17,7 +18,12 @@ const Footer = () => {
     >
       <div className="container mt-5">
         <div className="row">
-          <div className="col-md-3 mb-6 mb-md-0 mb-3">
+          <motion.div
+            className="col-md-3 mb-6 mb-md-0 mb-3"
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+          >
             <img
               style={{
                 height: "60px",
@@ -67,8 +73,13 @@ const Footer = () => {
                 />
               </a>
             </div>
-          </div>
-          <div className="col-md-3 mb-6 mb-md-0 mt-2">
+          </motion.div>
+          <motion.div
+            className="col-md-3 mb-6 mb-md-0 mt-2"
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, delay: 0.2 }}
+          >
             <h3 className="font-weight-bold mb-4 text-white">Company</h3>
             <ul className="list-unstyled">
               <li>
@@ -94,8 +105,13 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
-          <div className="col-md-3 mb-6 mb-md-0 mt-2">
+          </motion.div>
+          <motion.div
+            className="col-md-3 mb-6 mb-md-0 mt-2"
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, delay: 0.4 }}
+          >
             <h3 className="font-weight-bold mb-4 text-white">Supports</h3>
             <ul className="list-unstyled">
               <li>
@@ -120,12 +136,17 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
-          <div className="col-md-3 mt-2">
+          </motion.div>
+          <motion.div
+            className="col-md-3 mt-2"
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, delay: 0.6 }}
+          >
             <h3 className="font-weight-bold mb-4 text-white">Contacts Us</h3>
             <ul className="list-unstyled">
               <li className="d-flex align-items-center mb-2 text-white gap-2">
-                <i class="bi bi-envelope" />
+                <i className="bi bi-envelope" />
                 <a href="mailto:justgyde@gmail.com" className="text-white">
                   {" "}
                   justgyde@gmail.com
@@ -136,16 +157,21 @@ const Footer = () => {
                 (414) 687 - 5892
               </li> */}
               <li className="d-flex align-items-center text-white gap-2">
-                <i class="bi bi-geo-alt" />
+                <i className="bi bi-geo-alt" />
                 Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram,
                 Haryana, 122002
               </li>
             </ul>
-          </div>
+          </motion.div>
         </div>
       </div>
       <div className="container mt-8 border-top border-light pt-4 text-center small mt-5">
-        <p className="text-white">
+        <motion.p
+          className="text-white"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.8 }}
+        >
           All Rights Reserved |{" "}
           <Link
             to="/terms-and-conditions"
@@ -160,7 +186,7 @@ const Footer = () => {
           >
             Privacy Policy
           </Link>
-        </p>
+        </motion.p>
       </div>
     </div>
   );

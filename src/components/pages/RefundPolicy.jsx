@@ -73,7 +73,7 @@ const RefundPolicy = () => {
         </p>
         <p className="m-1 mx-4">
           <strong>Review Process:</strong> Our team will review your request and
-          respond within [number of days] business days.
+          respond within 3-4 business days.
         </p>
       </div>
 
