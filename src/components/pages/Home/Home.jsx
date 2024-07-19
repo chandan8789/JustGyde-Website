@@ -29,7 +29,7 @@ const Home = () => {
             dedicated to outstanding customer service.
           </p>
           <button
-            className="p-3 w-50 rounded bg-blue fs-5 mt-5"
+            className="p-3 w-50 rounded bg-blue fs-5 mt-1"
             type="button"
             style={{
               boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
