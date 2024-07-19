@@ -1,5 +1,4 @@
 import homebg from "../../assets/blue.png";
-// import homebg from "../../assets/pupple.png";
 import phone from "../../assets/Phone.png";
 import "./Home.css";
 import OurServices from "../OurServices/OurServices";
@@ -29,7 +28,7 @@ const Home = () => {
             dedicated to outstanding customer service.
           </p>
           <button
-            className="p-3 w-50 rounded bg-blue fs-5 mt-1"
+            className="p-3 w-50 rounded bg-blue fs-5 mt-2"
             type="button"
             style={{
               boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
