@@ -98,15 +98,17 @@ function Navbar() {
 
       {/* offcanvas */}
       <div
-        className="offcanvas offcanvas-start"
+        className="offcanvas offcanvas-start bg-secondary"
         tabIndex={-1}
         id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel"
       >
         <div className="offcanvas-header">
-          <h1 className="offcanvas-title fw-bold" id="offcanvasExampleLabel">
-            JUSTGYDE
-          </h1>
+          <img
+            src={JustGydeLogo}
+            alt=""
+            style={{ width: "150px", objectFit: "contain" }}
+          />
           <button
             type="button"
             className="btn-close"
@@ -118,7 +120,7 @@ function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item me-3">
               <Link
-                className="nav-link"
+                className="nav-link text-white"
                 to="/"
                 onClick={() => handleNavigation("/")}
                 data-bs-dismiss="offcanvas"
@@ -128,7 +130,7 @@ function Navbar() {
             </li>
             <li className="nav-item me-3">
               <Link
-                className="nav-link"
+                className="nav-link text-white"
                 to="/our-mission"
                 onClick={() => handleNavigation("/our-mission")}
                 data-bs-dismiss="offcanvas"
@@ -138,7 +140,7 @@ function Navbar() {
             </li>
             <li className="nav-item me-3">
               <Link
-                className="nav-link"
+                className="nav-link text-white"
                 to="/our-vission"
                 onClick={() => handleNavigation("/our-vission")}
                 data-bs-dismiss="offcanvas"
@@ -148,7 +150,7 @@ function Navbar() {
             </li>
             <li className="nav-item me-3">
               <Link
-                className="nav-link"
+                className="nav-link text-white"
                 to="/about"
                 onClick={() => handleNavigation("/about")}
                 data-bs-dismiss="offcanvas"
@@ -158,7 +160,7 @@ function Navbar() {
             </li>
             <li className="nav-item me-3">
               <Link
-                className="nav-link"
+                className="nav-link text-white"
                 to="/services"
                 onClick={() => handleNavigation("/services")}
                 data-bs-dismiss="offcanvas"
@@ -168,7 +170,7 @@ function Navbar() {
             </li>
             <li className="nav-item me-3">
               <Link
-                className="nav-link"
+                className="nav-link text-white"
                 to="/reviews"
                 onClick={() => handleNavigation("/reviews")}
                 data-bs-dismiss="offcanvas"
