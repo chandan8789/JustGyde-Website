@@ -5,7 +5,14 @@ import Start from "./assets/juststr.png";
 const CardsReviews = ({ title, des, Name, img }) => {
   return (
     <div className="container mt-4 mb-3">
-      <div className="card p-1">
+      <div
+        className="card p-1"
+        style={{
+          boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
+          borderRadius: "10px",
+          border: "none",
+        }}
+      >
         <div className="card-body">
           <div className="d-flex align-items-center mb-3">
             <div className="me-3">
@@ -33,12 +40,12 @@ const CardsReviews = ({ title, des, Name, img }) => {
                 className="w-50"
                 // style={{ height: "30px", width: "150px" }}
               />
-              <p className="m-0">4/5</p>
+              <p className="m-1">4/5</p>
             </div>
           </div>
           <h3
             style={{
-              fontSize: 28,
+              fontSize: 25,
               fontWeight: "600",
               lineHeight: 2,
               color: "rgba(0, 0, 102, 1)",
@@ -48,7 +55,7 @@ const CardsReviews = ({ title, des, Name, img }) => {
           </h3>
           <p
             className="card-text mb-3"
-            style={{ fontSize: 20, lineHeight: 1.4 }}
+            style={{ fontSize: 17, lineHeight: 1.4 }}
           >
             {des}
           </p>

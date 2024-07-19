@@ -9,14 +9,14 @@ const SecondCards = ({ title, img, des }) => {
             src={img}
             alt=""
             className="img-fluid"
-            style={{ maxHeight: "400px", width: "100%" }}
+            style={{ maxHeight: "350px", width: "100%" }}
           />
         </div>
         <div className="col-md-6 order-2 order-md-1 mt-3 mt-md-0">
-          <h1 className="display-4 mb-4 fw-bold" style={{ color: "#4e4250" }}>
+          <h1 className=" mb-4 fw-bold" style={{ color: "#4e4250" }}>
             {title}
           </h1>
-          <p className="lead">{des}</p>
+          <p>{des}</p>
         </div>
       </div>
     </div>

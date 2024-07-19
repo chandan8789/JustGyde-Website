@@ -1,31 +1,55 @@
-.centered {
-  position: absolute;
-  top: 50% !important;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.letter-spacing {
-  letter-spacing: 8px;
-}
-
-@media (max-width: 767.98px) {
-  .phoneImages {
-    display: none;
+/* Home.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-@media (max-width: 750px) {
-  .centered {
-    left: 40%;
-    top: 35%;
+.gradient-bg {
+  background: linear-gradient(to right, #000066, #1f3b90);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.text-container {
+  flex: 1;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.img-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .gradient-bg {
+    flex-direction: column;
     justify-content: center;
   }
-}
-/* 
-@media (max-width: 750px) {
-  .bgHome {
-    height: 500px !important;
+
+  .img-container {
+    display: none;
   }
-} */
+
+  .text-container {
+    width: 100%;
+    /* padding: 5px; */
+    margin-top: 40%;
+  }
+}

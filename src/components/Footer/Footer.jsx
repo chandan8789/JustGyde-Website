@@ -9,8 +9,13 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div style={{ backgroundColor: "rgba(78, 66, 80, 1)", padding: "10px" }}>
-      <div className="container">
+    <div
+      style={{
+        background: "linear-gradient(to right, #000066, #1f3b90)",
+        padding: "10px",
+      }}
+    >
+      <div className="container mt-5">
         <div className="row">
           <div className="col-md-3 mb-6 mb-md-0 mb-3">
             <img

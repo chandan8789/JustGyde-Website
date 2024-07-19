@@ -9,14 +9,14 @@ const MultiCards = ({ img, title, des }) => {
             src={img}
             alt=""
             className="img-fluid order-sm-1 order-lg-2"
-            style={{ maxHeight: "400px", width: "100%" }}
+            style={{ maxHeight: "350px", width: "100%" }}
           />
         </div>
         <div className="col-md-6 mt-3 mt-md-0">
-          <h1 className="display-4 mb-4 fw-bold mt-2" style={{ color: "#4e4250" }}>
+          <h1 className="mb-4 fw-bold mt-2" style={{ color: "#4e4250" }}>
             {title}
           </h1>
-          <p className="lead m-0">{des}</p>
+          <p>{des}</p>
         </div>
       </div>
     </div>

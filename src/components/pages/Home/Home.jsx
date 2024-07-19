@@ -1,55 +1,57 @@
-import React from "react";
-import homebg from "../../assets/pupple.png";
+import homebg from "../../assets/blue.png";
+// import homebg from "../../assets/pupple.png";
 import phone from "../../assets/Phone.png";
 import "./Home.css";
 import OurServices from "../OurServices/OurServices";
 import Reviews from "../Reviews/Reviews";
 import Ecommerce from "../Reviews/Ecommerce";
-import { Link } from "react-router-dom";
+
+import React from "react";
+
 const Home = () => {
   return (
-    <>
-      <div>
-        <div>
-          <Link to="/">
-            <img
-              style={{ width: "100%", height: "100vh" }}
-              src={homebg}
-              alt=""
-            />
-          </Link>
-          <div className="centered mt-5">
-            <h1 className="m-0 fw-bold letter-spacing mt-5">
-              Reliable Solutions,
-            </h1>
-            <h1 className="m-0 fw-bold letter-spacing">Exceptional Service</h1>
-            <p className="w-75 mt-1 mb-5">
-              At our company "AERO BEE STAR GLOBAL SOLUTIONS INDIA PRIVATE
-              LIMITED" , we pride ourselves on delivering reliable solutions
-              coupled with exceptional service. Our commitment to excellence
-              ensures that every project we undertake meets the highest
-              standards of quality and satisfaction. Trust us to provide
-              innovative and dependable solutions tailored to your needs, backed
-              by a team dedicated to outstanding customer service.
-            </p>
-          </div>
+    <div>
+      <div className="d-flex justify-content-around gradient-bg">
+        <div className="text-container">
+          <h1 className="m-0 fw-bold letter-spacing mt-5 text-white reliablesolutions">
+            Reliable Solutions,
+          </h1>
+          <h1 className="m-0 fw-bold letter-spacing text-white">
+            Exceptional Service
+          </h1>
+          <p className="w-75 mt-3 mb-5 text-white mx-auto">
+            At our company "AERO BEE STAR GLOBAL SOLUTIONS INDIA PRIVATE
+            LIMITED" , we pride ourselves on delivering reliable solutions
+            coupled with exceptional service. Our commitment to excellence
+            ensures that every project we undertake meets the highest standards
+            of quality and satisfaction. Trust us to provide innovative and
+            dependable solutions tailored to your needs, backed by a team
+            dedicated to outstanding customer service.
+          </p>
+          <button
+            className="p-3 w-50 rounded bg-blue fs-5 mt-5"
+            type="button"
+            style={{
+              boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
+              border: "none",
+            }}
+          >
+            Download
+          </button>
         </div>
-        <div
-          style={{ marginTop: "-27%", marginLeft: "55%" }}
-          className="phoneImages"
-        >
+        <div className="img-container">
           <img
             src={phone}
             alt=""
-            style={{ width: "500px", height: "475px" }}
-            className="phoneImagesmedia"
+            className="img-fluid"
+            style={{ height: "450px", width: "500px", marginTop: "2rem" }}
           />
         </div>
-        <OurServices />
-        <Ecommerce />
-        <Reviews />
       </div>
-    </>
+      <OurServices />
+      <Ecommerce />
+      <Reviews />
+    </div>
   );
 };
 

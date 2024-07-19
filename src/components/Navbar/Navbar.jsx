@@ -20,11 +20,12 @@ function Navbar() {
       <nav
         className="navbar navbar-expand-lg navbar-light fixed-top"
         style={{
-          background: "rgba(78, 66, 80, 1)",
+          background: "linear-gradient(to right, #000066, #1f3b90)",
           top: 0,
           left: 0,
           right: 0,
-          padding: "10px",
+          padding: "15px",
+          paddingLeft: "15px",
         }}
       >
         <div className="container-fluid">
