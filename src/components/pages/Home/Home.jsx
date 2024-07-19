@@ -23,7 +23,7 @@ const Home = () => {
               Reliable Solutions,
             </h1>
             <h1 className="m-0 fw-bold letter-spacing">Exceptional Service</h1>
-            <p className="w-75 mt-1">
+            <p className="w-75 mt-1 mb-5">
               At our company "AERO BEE STAR GLOBAL SOLUTIONS INDIA PRIVATE
               LIMITED" , we pride ourselves on delivering reliable solutions
               coupled with exceptional service. Our commitment to excellence
