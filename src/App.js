@@ -13,6 +13,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import Supports from "./components/Supports";
 import RefundPolicy from "./components/pages/RefundPolicy";
 import ScrollToTop from "./components/ScrollTop";
+// import Chatboat from "./components/Chatboat";
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/refund-policy" element={<RefundPolicy />} />
         </Routes>
+        {/* <Chatboat /> */}
         <Footer />
       </div>
     </Router>

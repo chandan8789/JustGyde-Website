@@ -143,7 +143,7 @@ const Footer = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
-            <h3 className="font-weight-bold mb-4 text-white">Contacts Us</h3>
+            <h3 className="font-weight-bold mb-4 text-white">Contact Us</h3>
             <ul className="list-unstyled">
               <li className="d-flex align-items-center mb-2 text-white gap-2">
                 <i className="bi bi-envelope" />
@@ -152,14 +152,14 @@ const Footer = () => {
                   justgyde@gmail.com
                 </a>
               </li>
-              {/* <li className="d-flex align-items-center mb-2 text-white gap-2">
-                <i class="bi bi-telephone" />
-                (414) 687 - 5892
-              </li> */}
-              <li className="d-flex align-items-center text-white gap-2">
+
+              <li className="d-flex text-white mt-4">
+                <br />
                 <i className="bi bi-geo-alt" />
-                Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram,
-                Haryana, 122002
+                <span style={{ marginLeft: "5px" }}>
+                  Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram,
+                  Haryana, 122002
+                </span>
               </li>
             </ul>
           </motion.div>
