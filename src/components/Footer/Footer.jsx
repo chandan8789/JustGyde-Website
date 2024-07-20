@@ -112,7 +112,7 @@ const Footer = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            <h3 className="font-weight-bold mb-4 text-white">Supports</h3>
+            <h3 className="font-weight-bold mb-4 text-white">Support</h3>
             <ul className="list-unstyled">
               <li>
                 <Link
