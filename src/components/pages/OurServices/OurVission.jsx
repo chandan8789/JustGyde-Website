@@ -22,7 +22,7 @@ const OurVision = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.2 }}
             >
-              At Just Gyde, our vision is to create a world where access to
+              At AEROGENIE, our vision is to create a world where access to
               essential services in healthcare, education, finance, and
               entertainment is seamless, universal, and equitable. We envision a
               future where individuals and communities are empowered through

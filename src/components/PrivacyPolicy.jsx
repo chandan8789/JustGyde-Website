@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
           </h4>
           <p className="mx-4">
             This Privacy Policy explains how we collect, use, and disclose your
-            information when you use our app. By using Justgyde, you agree to
+            information when you use our app. By using AEROGENIE, you agree to
             the collection and use of your information as described in this
             policy.
           </p>

@@ -10,7 +10,7 @@ const RefundPolicy = () => {
         Refund Policy
       </h1>
       <p>
-        At JustGyde, we are committed to providing our customers with the best
+        At AEROGENIE, we are committed to providing our customers with the best
         experience possible. However, we understand that there may be
         circumstances where you may need a refund. This Refund Policy outlines
         the conditions under which refunds are issued.
@@ -63,7 +63,7 @@ const RefundPolicy = () => {
         </p>
         <p className="m-1 mx-4">
           <strong>Contact Customer Support:</strong> Email us at
-          <a href="mailto:justgyde@gmail.com"> justgyde@gmail.com</a>
+          <a href="mailto:AEROGENIE@gmail.com"> AEROGENIE@gmail.com</a>
         </p>
 
         <p className="m-1 mx-4">
@@ -89,12 +89,12 @@ const RefundPolicy = () => {
         <p className="mx-4 mt-1">
           If you disagree with the outcome of your refund request, you can
           escalate the matter by contacting our customer service manager at
-          <a href="mailto:justgyde@gmail.com"> justgyde@gmail.com</a>
+          <a href="mailto:AEROGENIE@gmail.com"> AEROGENIE@gmail.com</a>
         </p>
 
         <h4 className="fw-bold">6. Changes to This Policy</h4>
         <p className="mx-4 mt-1">
-          JustGyde reserves the right to modify this Refund Policy at any time.
+          AEROGENIE reserves the right to modify this Refund Policy at any time.
           Any changes will be posted on this page with an updated effective
           date.
         </p>
@@ -106,7 +106,7 @@ const RefundPolicy = () => {
         </p>
         <p className="mt-1 mx-4">
           <strong>Email:</strong>{" "}
-          <a href="mailto:justgyde@gmail.com"> justgyde@gmail.com</a>
+          <a href="mailto:AEROGENIE@gmail.com"> AEROGENIE@gmail.com</a>
         </p>
         <p className="m-1 mx-4">
           <strong>Address:</strong> Forum DLF Cyber City, Phase III, Sector 24,

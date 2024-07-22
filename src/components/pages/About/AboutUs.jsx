@@ -30,7 +30,7 @@ const AboutUs = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
         >
-          Welcome to Just Gyde, your all-in-one platform for essential services
+          Welcome to AEROGENIE, your all-in-one platform for essential services
           in healthcare, education, finance, and entertainment. Our mission is
           to empower communities by making these services easily accessible and
           user-friendly.
@@ -41,7 +41,7 @@ const AboutUs = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          Just Gyde, part of AERO BEE STAR GLOBAL SOLUTIONS INDIA PRIVATE
+          AEROGENIE, part of AERO BEE STAR GLOBAL SOLUTIONS INDIA PRIVATE
           LIMITED, is dedicated to improving lives by bridging gaps in essential
           services. Our passionate team works tirelessly to bring you innovative
           solutions that simplify everyday life.

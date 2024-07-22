@@ -33,7 +33,7 @@ const Ecommerce = () => {
               E-Commerce Service
             </h1>
             <p className="mt-4">
-              Just Gyde is a versatile platform that caters to a wide range of
+              AEROGENIE is a versatile platform that caters to a wide range of
               services, including a robust E-commerce service dedicated to the
               sale of Fast-Moving Consumer Goods (FMCG). Our E-commerce service
               is designed to provide customers with a seamless and convenient

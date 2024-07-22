@@ -22,7 +22,7 @@ const OurMission = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.2 }}
             >
-              At Just Gyde, our mission is to empower individuals and
+              At AEROGENIE, our mission is to empower individuals and
               communities by providing seamless access to essential services in
               healthcare, education, finance, and entertainment. We are
               dedicated to creating user-friendly solutions that simplify daily

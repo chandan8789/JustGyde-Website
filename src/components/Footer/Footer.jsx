@@ -24,7 +24,7 @@ const Footer = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
           >
-            <img
+            {/* <img
               style={{
                 height: "60px",
                 width: "160px",
@@ -32,7 +32,8 @@ const Footer = () => {
               }}
               src={logo}
               alt="JustGyde Logo"
-            />
+            /> */}
+            <h1 className="fw-bold text-white">AEROGENIE</h1>
             <p className="mb-4 text-white">
               Dependable solutions, tailored to your needs, ensuring quality and
               consistency. Exceptional support, exceeding expectations with

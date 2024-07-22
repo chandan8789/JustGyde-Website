@@ -30,11 +30,12 @@ function Navbar() {
       >
         <div className="container-fluid">
           <Link to="/" className="navbar-brand" href="">
-            <img
+            {/* <img
               src={JustGydeLogo}
               alt=""
               style={{ width: "150px", objectFit: "contain" }}
-            />
+            /> */}
+            <h1 className="fw-bold text-white">AEROGENIE</h1>
           </Link>
           <button
             className="btn navbar-toggler border-light"
@@ -104,11 +105,7 @@ function Navbar() {
         aria-labelledby="offcanvasExampleLabel"
       >
         <div className="offcanvas-header">
-          <img
-            src={JustGydeLogo}
-            alt=""
-            style={{ width: "150px", objectFit: "contain" }}
-          />
+          <h1 className="fw-bold text-white">AEROGENIE</h1>
           <button
             type="button"
             className="btn-close"
