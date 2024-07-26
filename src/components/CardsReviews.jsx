@@ -4,7 +4,7 @@ import Start from "./assets/juststr.png";
 
 const CardsReviews = ({ title, des, Name, img }) => {
   return (
-    <div className="container mt-4 mb-4 w-100">
+    <div className="container mt-4 mb-4">
       <div
         className="card p-2 cardsize"
         style={{
