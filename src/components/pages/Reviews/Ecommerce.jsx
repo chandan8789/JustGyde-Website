@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import EcommerImage from "../../assets/ecommerce.jpg";
+import EcommerImage from "../../assets/ecommerce.png";
 
 const Ecommerce = () => {
   return (

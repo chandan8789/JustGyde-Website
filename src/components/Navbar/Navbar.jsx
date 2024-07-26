@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import JustGydeLogo from "../assets/justgydelogo.png";
+import Logo from "../assets/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 
 function Navbar() {
@@ -30,12 +30,12 @@ function Navbar() {
       >
         <div className="container-fluid">
           <Link to="/" className="navbar-brand" href="">
-            {/* <img
-              src={JustGydeLogo}
+             <img
+              src={Logo}
               alt=""
               style={{ width: "150px", objectFit: "contain" }}
-            /> */}
-            <h1 className="fw-bold text-white">AEROGENIE</h1>
+            /> 
+            {/* <h1 className="fw-bold text-white">AEROGENIE</h1> */}
           </Link>
           <button
             className="btn navbar-toggler border-light"

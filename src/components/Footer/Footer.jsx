@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/justgydelogo.png";
+import logo from "../assets/logo.png";
 import face from "../assets/Facebook.png";
 import insta from "../assets/Instagram.png";
 import link from "../assets/LinkedIn.png";
@@ -24,32 +24,32 @@ const Footer = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
           >
-            {/* <img
+             <img
               style={{
                 height: "60px",
-                width: "160px",
+                width: "180px",
                 objectFit: "contain",
               }}
               src={logo}
-              alt="JustGyde Logo"
-            /> */}
-            <h1 className="fw-bold text-white">AEROGENIE</h1>
+              alt=" Logo"
+            /> 
+            {/* <h1 className="fw-bold text-white">AEROGENIE</h1> */}
             <p className="mb-4 text-white">
               Dependable solutions, tailored to your needs, ensuring quality and
               consistency. Exceptional support, exceeding expectations with
               personalized and attentive care.{" "}
             </p>
             <div className="d-flex gap-3">
-              <Link href="#" className="me-2">
+              <a href="https://www.facebook.com/profile.php?id=61563538340842&mibextid=ZbWKwL"  target="_blank"  className="me-2">
                 <img
                   src={face}
                   alt=""
                   style={{ height: "20px", width: "15px" }}
                 />
-              </Link>
+              </a>
 
               <a
-                href="https://www.instagram.com/justgyde/"
+                href="https://www.instagram.com/aero__genie?utm_source=qr"
                 className="me-2"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -62,7 +62,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://youtube.com/@justgyde?si=L-Orlf7SeBqMetqD"
+                href="https://www.youtube.com/@aero-genie"
                 className="me-2"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -148,9 +148,9 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li className="d-flex align-items-center mb-2 text-white gap-2">
                 <i className="bi bi-envelope" />
-                <a href="mailto:justgyde@gmail.com" className="text-white">
+                <a href="mailto:aerogenie0@gmail.com" className="text-white text-decoration-none">
                   {" "}
-                  justgyde@gmail.com
+                  aerogenie0@gmail.com
                 </a>
               </li>
 

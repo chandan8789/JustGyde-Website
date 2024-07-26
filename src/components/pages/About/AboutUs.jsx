@@ -1,11 +1,11 @@
 import React from "react";
-import About from "../../assets/Aboutus.png";
-import OurServices from "../OurServices/OurServices";
+import About from "../../assets/aboutimage.png";
+// import OurServices from "../OurServices/OurServices";
 import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (
-    <div className="container-fluid py-5 p-1">
+    <div className="container mt-5 p-1">
       <motion.h1
         className="text-center mt-5 fw-bold"
         style={{ color: "rgba(78, 66, 80, 1)" }}
@@ -18,10 +18,11 @@ const AboutUs = () => {
       <motion.img
         src={About}
         alt="About Us"
-        className="w-100 mt-4"
+        className="w-100 "
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.2 }}
+        style={{borderRadius:"10px", boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)"}}
       />
       <div className="container mt-5 text-center">
         <motion.p

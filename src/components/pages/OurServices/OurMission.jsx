@@ -47,10 +47,10 @@ const OurMission = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
             >
-              Join us in our mission to transform lives, promote equality, and
-              build a brighter future for all. Together, we can make a lasting
-              impact and create a world where access to essential services is a
-              right, not a privilege.
+              Be a part of our mission to change lives, advance equality, and
+              shape a better future for everyone. Together, we can create a
+              lasting difference and build a world where access to essential
+              services is recognized as a fundamental right, not a privilege.
             </motion.p>
           </div>
         </div>

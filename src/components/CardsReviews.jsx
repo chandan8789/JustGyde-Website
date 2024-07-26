@@ -4,9 +4,9 @@ import Start from "./assets/juststr.png";
 
 const CardsReviews = ({ title, des, Name, img }) => {
   return (
-    <div className="container mt-4 mb-3">
+    <div className="container mt-4 mb-4 w-100">
       <div
-        className="card p-1"
+        className="card p-2 cardsize"
         style={{
           boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
           borderRadius: "10px",
@@ -19,7 +19,12 @@ const CardsReviews = ({ title, des, Name, img }) => {
               <img
                 src={img}
                 alt="Avatar"
-                style={{ height: "100px", width: "100px", borderRadius: "50%" }}
+                style={{
+                  height: "100px",
+                  width: "100px",
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                }}
               />
             </div>
             <div className="flex-grow-1">
@@ -33,19 +38,18 @@ const CardsReviews = ({ title, des, Name, img }) => {
                 <span className="ms-2">Delhi</span>
               </div>
             </div>
-            <div className="text-end">
+            <div style={{display:"flex",justifyContent:"end",flexDirection:"column",alignItems:"end"}}>
               <img
                 src={Start}
                 alt="Rating"
                 className="w-50"
-                // style={{ height: "30px", width: "150px" }}
               />
               <p className="m-1">4/5</p>
             </div>
           </div>
           <h3
             style={{
-              fontSize: 25,
+              fontSize: 18,
               fontWeight: "600",
               lineHeight: 2,
               color: "rgba(0, 0, 102, 1)",
@@ -55,7 +59,7 @@ const CardsReviews = ({ title, des, Name, img }) => {
           </h3>
           <p
             className="card-text mb-3"
-            style={{ fontSize: 17, lineHeight: 1.4 }}
+            style={{ fontSize: "15px" }}
           >
             {des}
           </p>
