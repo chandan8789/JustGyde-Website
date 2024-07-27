@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import locationss from "./assets/locationgyde.png";
 import Start from "./assets/juststr.png";
 
+
 const CardsReviews = ({ title, des, Name, img, rate }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 

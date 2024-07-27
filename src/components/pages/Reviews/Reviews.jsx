@@ -7,6 +7,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import man from '../../../components/assets/man.jpg'
+import vivek from '../../../components/assets/vivek.jpg'
 
 const Reviews = () => {
   var settings = {
@@ -84,7 +85,7 @@ const Reviews = () => {
                   transition={{ duration: 1, delay: 0.4 }}
                 >
                   <CardsReviews
-                    img="http://103.119.171.173:8000/vivek.jpg"
+                    img={vivek} 
                     Name="Vivek"
                     title="Impressive Range of Services on AEROGENIE!"
                     des="I recently came across the AEROGENIE App and  Services I am thoroughly impressed with the variety of services available. The app is well-designed and user-friendly. I'm already planning my next movie night with AEROGENIE to enjoy their discounts and exclusive deals!"
