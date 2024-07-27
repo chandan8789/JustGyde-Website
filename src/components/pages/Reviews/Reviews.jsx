@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import man from '../../../components/assets/man.png'
+import man from '../../../components/assets/man.jpg'
 
 const Reviews = () => {
   var settings = {
@@ -68,8 +68,8 @@ const Reviews = () => {
                   transition={{ duration: 1, delay: 0.2 }}
                 >
                   <CardsReviews
-                    img="https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg"
-                    Name="Vinay"
+                    img={man}
+                    Name="Ravi"
                     title="Excited About the Potential of AEROGENIE!"
                     des="I just downloaded the AEROGENIE App and Service, I'm excited about the possibilities. The app's interface is sleek and easy to navigate, with a wide range of entertainment options. I'm planning to use AEROGENIE for upcoming events to take advantage of the best deals!"
                     rate="4.5/5"
@@ -84,7 +84,7 @@ const Reviews = () => {
                   transition={{ duration: 1, delay: 0.4 }}
                 >
                   <CardsReviews
-                    img={man}
+                    img="http://103.119.171.173:8000/vivek.jpg"
                     Name="Vivek"
                     title="Impressive Range of Services on AEROGENIE!"
                     des="I recently came across the AEROGENIE App and  Services I am thoroughly impressed with the variety of services available. The app is well-designed and user-friendly. I'm already planning my next movie night with AEROGENIE to enjoy their discounts and exclusive deals!"
