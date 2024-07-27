@@ -1,7 +1,7 @@
 import React from "react";
 import CardsReviews from "../../CardsReviews";
-import Footer from "../../Footer/Footer";
-import images from "../../assets/avtarsgyde.png";
+// import Footer from "../../Footer/Footer";
+// import images from "../../assets/avtarsgyde.png";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -11,7 +11,7 @@ import man from '../../../components/assets/man.png'
 const Reviews = () => {
   var settings = {
     // dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -72,6 +72,7 @@ const Reviews = () => {
                     Name="Vinay"
                     title="Excited About the Potential of AEROGENIE!"
                     des="I just downloaded the AEROGENIE App and Service, I'm excited about the possibilities. The app's interface is sleek and easy to navigate, with a wide range of entertainment options. I'm planning to use AEROGENIE for upcoming events to take advantage of the best deals!"
+                    rate="4.5/5"
                   />
                 </motion.div>
               </div>
@@ -87,10 +88,11 @@ const Reviews = () => {
                     Name="Vivek"
                     title="Impressive Range of Services on AEROGENIE!"
                     des="I recently came across the AEROGENIE App and  Services I am thoroughly impressed with the variety of services available. The app is well-designed and user-friendly. I'm already planning my next movie night with AEROGENIE to enjoy their discounts and exclusive deals!"
+                    rate="4.8/5"
                   />
                 </motion.div>
               </div>
-              <div>
+              {/* <div>
                 <motion.div
                   // className="col-12 col-sm-10 col-md-6 col-lg-5 mb-4"
                   initial={{ opacity: 0, scale: 0.8 }}
@@ -119,7 +121,7 @@ const Reviews = () => {
                     des="I recently came across the AEROGENIE App and  Services I am thoroughly impressed with the variety of services available. The app is well-designed and user-friendly. I'm already planning my next movie night with AEROGENIE to enjoy their discounts and exclusive deals!"
                   />
                 </motion.div>
-              </div>
+              </div> */}
            
             </Slider>
           </div>

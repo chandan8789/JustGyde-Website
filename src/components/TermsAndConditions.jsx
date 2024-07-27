@@ -152,7 +152,7 @@ const TermsAndConditions = () => {
             contact us:
           </p>
           <p>
-            Email: <a href="mailto:aerogenie0@gmail.com">aerogenie0@gmail.com</a>
+            Email: <a href="mailto:info@aerogenie.co">info@aerogenie.co</a>
           </p>
         </div>
       </div>

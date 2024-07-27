@@ -2,8 +2,8 @@ import React from "react";
 import logo from "../assets/logo.png";
 import face from "../assets/Facebook.png";
 import insta from "../assets/Instagram.png";
-import link from "../assets/LinkedIn.png";
-import Twit from "../assets/Twitter.png";
+// import link from "../assets/LinkedIn.png";
+// import Twit from "../assets/Twitter.png";
 import you from "../assets/YouTube.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -148,9 +148,9 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li className="d-flex align-items-center mb-2 text-white gap-2">
                 <i className="bi bi-envelope" />
-                <a href="mailto:aerogenie0@gmail.com" className="text-white text-decoration-none">
+                <a href="mailto:info@aerogenie.co" className="text-white text-decoration-none">
                   {" "}
-                  aerogenie0@gmail.com
+                  info@aerogenie.co
                 </a>
               </li>
 

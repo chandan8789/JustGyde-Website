@@ -83,7 +83,7 @@ const Supports = () => {
             <div class="accordion-body">
               <p>
                 You can contact our customer support team by emailing
-                <a href="mailto:justgyde@gmail.com"> justgyde@gmail.com</a>
+                <a href="mailto:info@aerogenie.co"> info@aerogenie.co</a>
               </p>
             </div>
           </div>

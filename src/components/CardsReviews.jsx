@@ -2,7 +2,7 @@ import React from "react";
 import locationss from "./assets/locationgyde.png";
 import Start from "./assets/juststr.png";
 
-const CardsReviews = ({ title, des, Name, img }) => {
+const CardsReviews = ({ title, des, Name, img,rate }) => {
   return (
     <div className="container mt-4 mb-4">
       <div
@@ -44,7 +44,7 @@ const CardsReviews = ({ title, des, Name, img }) => {
                 alt="Rating"
                 className="w-50"
               />
-              <p className="m-1">4/5</p>
+              <p className="m-1">{rate}</p>
             </div>
           </div>
           <h3

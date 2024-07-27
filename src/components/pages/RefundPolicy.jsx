@@ -63,7 +63,7 @@ const RefundPolicy = () => {
         </p>
         <p className="m-1 mx-4">
           <strong>Contact Customer Support:</strong> Email us at
-          <a href="mailto:AEROGENIE@gmail.com"> AEROGENIE@gmail.com</a>
+          <a href="mailto:info@aerogenie.co"> info@aerogenie.co</a>
         </p>
 
         <p className="m-1 mx-4">
@@ -89,7 +89,7 @@ const RefundPolicy = () => {
         <p className="mx-4 mt-1">
           If you disagree with the outcome of your refund request, you can
           escalate the matter by contacting our customer service manager at
-          <a href="mailto:AEROGENIE@gmail.com"> AEROGENIE@gmail.com</a>
+          <a href="mailto:info@aerogenie.co"> info@aerogenie.co</a>
         </p>
 
         <h4 className="fw-bold">6. Changes to This Policy</h4>
@@ -106,7 +106,7 @@ const RefundPolicy = () => {
         </p>
         <p className="mt-1 mx-4">
           <strong>Email:</strong>{" "}
-          <a href="mailto:AEROGENIE@gmail.com"> AEROGENIE@gmail.com</a>
+          <a href="mailto:info@aerogenie.co"> info@aerogenie.co</a>
         </p>
         <p className="m-1 mx-4">
           <strong>Address:</strong> Forum DLF Cyber City, Phase III, Sector 24,
