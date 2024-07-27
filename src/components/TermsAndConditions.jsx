@@ -44,7 +44,7 @@ const TermsAndConditions = () => {
           </p>
           <p>
             <strong>Website</strong> refers to Our Website, accessible from
-            <a href="http://www.justgyde.com/"> https://www.justgyde.com</a>
+            <a href="https://aerogenie.co/"> https://aerogenie.co</a>
           </p>
           <p>
             <strong>You</strong> means the individual accessing or using the
@@ -152,7 +152,7 @@ const TermsAndConditions = () => {
             contact us:
           </p>
           <p>
-            Email: <a href="mailto:justgyde@gmail.com">justgyde@gmail.com</a>
+            Email: <a href="mailto:aerogenie0@gmail.com">aerogenie0@gmail.com</a>
           </p>
         </div>
       </div>
