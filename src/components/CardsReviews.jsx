@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import locationss from "./assets/locationgyde.png";
 import Start from "./assets/juststr.png";
 
-const CardsReviews = ({ title, des, Name, img,rate }) => {
+const CardsReviews = ({ title, des, Name, img, rate }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleIsExpanded = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <div className="container mt-4 mb-4">
       <div
@@ -38,18 +44,21 @@ const CardsReviews = ({ title, des, Name, img,rate }) => {
                 <span className="ms-2">Delhi</span>
               </div>
             </div>
-            <div style={{display:"flex",justifyContent:"end",flexDirection:"column",alignItems:"end"}}>
-              <img
-                src={Start}
-                alt="Rating"
-                className="w-50"
-              />
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "end",
+                flexDirection: "column",
+                alignItems: "end",
+              }}
+            >
+              <img src={Start} alt="Rating" className="w-50" />
               <p className="m-1">{rate}</p>
             </div>
           </div>
           <h3
             style={{
-              fontSize: 18,
+              fontSize: 16,
               fontWeight: "600",
               lineHeight: 2,
               color: "rgba(0, 0, 102, 1)",
@@ -58,11 +67,24 @@ const CardsReviews = ({ title, des, Name, img,rate }) => {
             {title}
           </h3>
           <p
-            className="card-text mb-3"
-            style={{ fontSize: "15px" }}
+            className={`card-text mb-3 ${isExpanded ? 'expanded' : 'collapsed'}`}
           >
             {des}
           </p>
+          {des.length > 100 && (
+            <button
+              onClick={toggleIsExpanded}
+              style={{
+                backgroundColor: "transparent",
+                border: "none",
+                color: "blue",
+                cursor: "pointer",
+                padding: "0",
+              }}
+            >
+              {isExpanded ? "Show Less" : "Show More"}
+            </button>
+          )}
         </div>
       </div>
     </div>
